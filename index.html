@@ -12,6 +12,8 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="C:\Users\apyatak\Documents\GitHub\homework\mystyle.css"> 
   </head>
   <body>
  
@@ -64,28 +66,35 @@
       <input type="text" class="form-control" id="inputAddress" placeholder="Input Address">
     </div>
   </div>
+
   <ul style="list-style: none">
   
    <li> <div class="form-group">
+   
     <label for="inputCity" class="col-sm-2 control-label">City*</label>
-   <div class="col-xs-8 col-sm-6">
+   <div class="col-xs-8 col-sm-5">
       <input type="text" class="form-control" id="inputCity" placeholder="Input City*">
     </div>
   </div></li>
   <li>
 <li> <div class="form-group">
     <label for="inputStreet" class="col-sm-2 control-label">Street</label>
-   <div class="col-xs-8 col-sm-6">
+   <div class="col-xs-8 col-sm-5">
       <input type="text" class="form-control" id="inputStreet" placeholder="Input Street">
     </div>
   </div></li>  
   <div class="form-group">
     <label for="inputArea" class="col-sm-2 control-label">Area</label>
-   <div class="col-xs-8 col-sm-6">
-   <input class="form-control Area" type="text" placeholder="Voluns'ka">
-  <select class="form-control Voluns'ka">...</select>
+   <div class="col-xs-8 col-sm-5">
+   <select class="form-control Area" type="text" placeholder="Voluns'ka">
+    <option value="Kiev">Kiev</option>
+  <option value="">Odessa</option>
+  <option value="Lvov">Lvov</option>
+ </select>
   </li>
   </ul>
+
+  
   <div class="form-group">
     <label for="inputInterests" class="col-sm-2 control-label">Interests</label>
    <div class="col-xs-8 col-sm-6">
@@ -104,7 +113,17 @@
 </div>
 </div>
 </div>
+  
   <div class="form-group">
+    <label for="inputHow do you know about us" class="col-sm-2 control-label">How do you know about us?</label>
+   <div class="col-xs-8 col-sm-6">
+    <select name="How do you know about us?">
+  <option value="Friends">Friends</option>
+  <option value="Internet">Internet</option>
+  <option value="Other">Other</option>
+ 
+</select>
+<div class="form-group">
    <div class="col-md-3 col-md-offset-3">
       <div class="checkbox">
         <label>
@@ -118,15 +137,6 @@
       <button type="submit" class="btn btn-default">Sign in</button>
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputHow do you know about us" class="col-sm-2 control-label">How do you know about us?</label>
-   <div class="col-xs-8 col-sm-6">
-    <select name="How do you know about us?">
-  <option value="Friends">Friends</option>
-  <option value="Internet">Internet</option>
-  <option value="Other">Other</option>
- 
-</select>
 </form>
   </body>
   
